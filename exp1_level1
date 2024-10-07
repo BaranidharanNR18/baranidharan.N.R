@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<ctype.h>
+ int main()
+ { 
+char upper,lower;
+ printf("Uppercase character:"); scanf("%c",&upper); 
+lower=tolower(upper); 
+printf("Lowercase:%c",lower); 
+return 0; 
+}
